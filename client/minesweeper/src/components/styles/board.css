@@ -1,0 +1,22 @@
+.board-container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+    margin-top: 15rem;
+}   
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2rem;
+    width:2rem
+}
+
+.square img {
+    flex-shrink: 1;
+    min-width: 100%;
+    min-height: 100%;
+    aspect-ratio: 1
+}
+
